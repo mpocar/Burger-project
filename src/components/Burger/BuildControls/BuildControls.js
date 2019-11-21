@@ -24,6 +24,9 @@ const buildControls = props => (
         disabled={props.disabled[ctrl.type]}
       />
     ))}
+    <p><button className={} onClick={<h1>NIC</h1>}>
+      Send it
+    </button></p>
   </div>
 );
 
